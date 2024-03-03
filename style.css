@@ -1,0 +1,22 @@
+body {
+	background: #DAF7A6;
+	font-weight: bolder;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.name{
+	font-size: 23px;
+	display: inline-block;
+	color: red;
+	background: yellow;
+	margin: 10px;
+}
+
+.story{
+	font-size: 18px;
+	background: green;
+}
+
