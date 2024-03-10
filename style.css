@@ -1,22 +1,74 @@
 body {
-	background: #DAF7A6;
+	background: #33383a; 
+	color: white;
 	font-weight: bolder;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f191c;
+    color: white;
+}
+
+.logo {
+    order: 1;
+}
+
+button{
+	font-size: 20px;
+	color: white;
+	background: #d93a00;
+	border-radius: 999px;	
+}
+
+button:hover{
+	background:#782100;
+}
+
+.login-btn {
+    order: 3;
 }
 
 h1, h2 {
 	text-align: center;
 }
 
+.stories {
+	margin: 20px;
+	background: ;
+}
+
 .name{
-	font-size: 23px;
+	font-size: 14px;
 	display: inline-block;
-	color: red;
-	background: yellow;
+	color: #a1998d;
 	margin: 10px;
+	padding: 5px;
+	
 }
 
 .story{
-	font-size: 18px;
-	background: green;
+	font-size: 16px;
+	background: #091012;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border-radius: 15px;
 }
 
+.theme {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e1deda; 
+    margin-top: 5px;
+    border-radius: 10px ;
+    margin-bottom: 20px;
+}
+
+i{
+	font-size: 3em;
+}
