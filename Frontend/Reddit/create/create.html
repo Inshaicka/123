@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create the post</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<nav>
+		<div class ="left">
+			<div class="menu">
+				<span class="menu-btn" onclick="openNav()"><i class='bx bx-menu'></i></span>
+			</div>
+			<div class="logo">
+				<img src='D:\Frontend\Reddit\images\reddit.png'>
+			</div>
+		</div>
+		<div class="search">		
+			<input type= 'text' placeholder='Search' autocomplete="off" inputmode>
+			<button> <i class='bx bx-search'></i></button>
+		</div>
+		<div class="buttons">
+			<button class="create-btn"><a href="D:\Frontend\Reddit\create\create.html">+Create</a></button>
+			<button class="login-btn"><a href="D:\Frontend\Reddit\login\login.html">Login</a></button>
+			<button class="profile-btn"><a href="D:\Frontend\Reddit\profile\profile.html">Profile</a></button>
+		</div>		
+	</nav>
+
+
+	<div class="rules">
+		<h3> Posting Rules </h3>
+		<ol>
+			<li> Remember the human </li>
+			<li> Behave like you would in real life </li>
+			<li> Look for the original source of content </li>
+			<li> Search for duplicates before posting </li>
+			<li> Read the community’s rules </li>
+		</ol>
+
+	</div>
+
+	
+
+	<div class="create">
+		<h5> Create a post </h5>
+		<input class='title' type="text" placeholder="Title " autocomplete="off" inputmode></input>
+		<input class='text'type="text" placeholder="Text" autocomplete="off" inputmode> </input>
+		<button class="post-btn">Post</button>
+	</div>
+
+
+
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0" class="close-btn" onclick="closeNav()">&times;</a>
+		<a href="#">Home</a>
+		<a href="#">Profile</a>
+		<a href="#">Rules</a>
+	</div>
+
+	
+
+
+	<script src="script.js"></script>
+</body>
+</html>
